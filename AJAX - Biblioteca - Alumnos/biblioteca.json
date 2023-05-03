@@ -1,0 +1,246 @@
+{
+    "libros":[
+        {
+            "id":1,
+            "titulo":"Don Quijote de la Mancha I",
+            "editorial":"Anaya",
+            "autor":"Miguel de Carvantes",
+            "genero":"Caballaresco",
+            "paisAutor":"España",
+            "paginas":517,
+            "fechEdicion":"1991"
+        },
+        {
+            "id":2,
+            "titulo":"Don Quijote de la Mancha II",
+            "editorial":"Anaya",
+            "autor":"Miguel de Carvantes",
+            "genero":"Caballaresco",
+            "paisAutor":"España",
+            "paginas":611,
+            "fechEdicion":"1991"
+        },
+        {
+            "id":3,
+            "titulo":"Historias de Nueva Orleans",
+            "editorial":"Alfaguara",
+            "autor":"William Faulkner",
+            "genero":"Novela",
+            "paisAutor":"Estados Unidos",
+            "paginas":186,
+            "fechEdicion":"1985"
+        },
+        {
+            "id":4,
+            "titulo":"El Principito",
+            "editorial":"Andina",
+            "autor":"Antoine Saint-Exupery",
+            "genero":"Aventura",
+            "paisAutor":"Francia",
+            "paginas":120,
+            "fechEdicion":"1996"
+        },
+        {
+            "id":5,
+            "titulo":"El principe",
+            "editorial":"S.M.",
+            "autor":"Maquiavelo",
+            "genero":"Político",
+            "paisAutor":"Italia",
+            "paginas":210,
+            "fechEdicion":"1995"
+        },
+        {
+            "id":6,
+            "titulo":"Diplomacia",
+            "editorial":"S.M.",
+            "autor":"Henry Kissinger",
+            "genero":"Político",
+            "paisAutor":"Alemania",
+            "paginas":825,
+            "fechEdicion":"1997"
+        },
+        {
+            "id":7,
+            "titulo":"Los Windsor",
+            "editorial":"Plaza & Janés",
+            "autor":"Kitty Kelley",
+            "genero":"Biografías",
+            "paisAutor":"Gran Bretaña",
+            "paginas":620,
+            "fechEdicion":"1998"
+        },
+        {
+            "id":8,
+            "titulo":"El Último Emperador",
+            "editorial":"Caralt",
+            "autor":"Pu-Yi",
+            "genero":"Autobiografías",
+            "paisAutor":"China",
+            "paginas":252,
+            "fechEdicion":"1989"
+        },
+        {
+            "id":9,
+            "titulo":"Fortunata y Jacinta",
+            "editorial":"Plaza & Janés",
+            "autor":"Pérez Galdós",
+            "genero":"Novela",
+            "paisAutor":"España",
+            "paginas":625,
+            "fechEdicion":"1984"
+        }
+    ],
+    "socios":[
+        {
+            "id":1,
+            "nif":"42117892-S",
+            "nombre":"Inés",
+            "apellidos":"Posadas Gil",
+            "domicilio":"Av. Escaleritas 12",
+            "poblacion":"Las Palmas G.C.",
+            "provincia":"Las Palmas",
+            "email":"ines.posadas@gmail.com"
+        },
+        {
+            "id":2,
+            "nif":"31765348-D",
+            "nombre":"José",
+            "apellidos":"Sánchez Pons",
+            "domicilio":"Mesa y López 51",
+            "poblacion":"Las Palmas G.C.",
+            "provincia":"Las Palmas",
+            "email":"jose.sanchez@gmail.com"
+        },
+        {
+            "id":3,
+            "nif":"11542981-G",
+            "nombre":"Miguel",
+            "apellidos":"Gómez Sáez",
+            "domicilio":"Gran Vía 71",
+            "poblacion":"Madrid",
+            "provincia":"Madrid",
+            "email":"miguel.gomez@@gmail.com"
+        },
+        {
+            "id":4,
+            "nif":"78542450-L",
+            "nombre":"Eva",
+            "apellidos":"Santana Páez",
+            "domicilio":"Pío Baroja 23",
+            "poblacion":"Bilbao",
+            "provincia":"Vizcaya",
+            "email":"eva@santana@yahoo.com"
+        },
+        {
+            "id":5,
+            "nif":"44312870-Z",
+            "nombre":"Yolanda",
+            "apellidos":"Betancor Díaz",
+            "domicilio":"El Cid 45",
+            "poblacion":"Miranda de Ebro",
+            "provincia":"Burgos",
+            "email":"yolanda.betancor@elpais.com"
+        },
+        {
+            "id":6,
+            "nif":"47234471-P",
+            "nombre":"Juan Luís",
+            "apellidos":"Blanco Pita",
+            "domicilio":"Jaime I, 65",
+            "poblacion":"Alcira",
+            "provincia":"Valencia",
+            "email":"juan.blasco@marca.es"
+        }
+    ],
+    "prestamos":[
+        {
+            "id":1,
+            "socioId":3,
+            "libroId":1,
+            "fechSalida":"1999-11-01",
+            "fechMaxDevol":"1999-11-15",
+            "fechaDevol":"199-11-13"
+        },
+        {
+            "id":2,
+            "socioId":2,
+            "libroId":3,
+            "fechSalida":"1999-11-03",
+            "fechMaxDevol":"1999-11-20",
+            "fechaDevol":"1999-11-22"
+        },
+        {
+            "id":3,
+            "socioId":5,
+            "libroId":2,
+            "fechSalida":"1999-11-18",
+            "fechMaxDevol":"1999-11-30",
+            "fechaDevol":"1999-11-25"
+        },
+        {
+            "id":4,
+            "socioId":6,
+            "libroId":5,
+            "fechSalida":"1999-11-21",
+            "fechMaxDevol":"1999-12-03",
+            "fechaDevol":"1999-12-05"
+        },
+        {
+            "id":5,
+            "socioId":2,
+            "libroId":9,
+            "fechSalida":"1999-11-21",
+            "fechMaxDevol":"1999-12-05",
+            "fechaDevol":"1999-11-30"
+        },
+        {
+            "id":6,
+            "socioId":4,
+            "libroId":2,
+            "fechSalida":"1999-11-26",
+            "fechMaxDevol":"1999-12-07",
+            "fechaDevol":"1999-12-01"
+        },
+        {
+            "id":7,
+            "socioId":3,
+            "libroId":4,
+            "fechSalida":"1999-11-30",
+            "fechMaxDevol":"1999-12-07",
+            "fechaDevol":"1999-12-08"
+        },
+        {
+            "id":8,
+            "socioId":1,
+            "libroId":1,
+            "fechSalida":"1999-12-01",
+            "fechMaxDevol":"1999-12-09",
+            "fechaDevol":"1999-12-11"
+        },
+        {
+            "id":9,
+            "socioId":6,
+            "libroId":3,
+            "fechSalida":"1999-12-03",
+            "fechMaxDevol":"1999-12-09",
+            "fechaDevol":"1999-12-09"
+        },
+        {
+            "id":10,
+            "socioId":3,
+            "libroId":7,
+            "fechSalida":"1999-12-03",
+            "fechMaxDevol":"1999-12-18",
+            "fechaDevol":"1999-12-15"
+        },
+        {
+            "id":11,
+            "socioId":2,
+            "libroId":3,
+            "fechSalida":"1999-12-05",
+            "fechMaxDevol":"1999-12-22",
+            "fechaDevol":"1999-12-20"
+        }
+    ]
+}

@@ -1,0 +1,127 @@
+* {
+	box-sizing:border-box;
+}
+
+form {
+	width:800px;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+}
+
+h1 {
+    text-align: center;
+    font-size:65px;
+    font-style: italic;
+    color:darkblue;
+    font-family: 'Akaya Kanadaka', cursive;
+}
+
+form fieldset {
+   width: 100%;
+   margin-bottom: 5px;
+   border-radius: 20px;
+   background-color:burlywood;
+   border:2px solid blue;
+}
+
+form fieldset p {
+    width: 60%;
+    margin:0 auto;
+    margin-bottom: 15px;
+}
+
+form legend{
+	color:white;
+	font-weight: bold;;
+	background-color: blue;
+	padding: 5px;
+	border-radius: 7px;
+}
+
+form label {
+	color:brown;
+}
+
+form label.cliente {
+	width:85px;
+	font-weight:bold;
+	display:inline-block;
+	margin-right: 5px;
+}
+
+form input {
+	width:280px;
+	padding:5px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:10px;
+	background-color:#f6f6f6;
+	display:inline-block;
+	text-align: center;
+	font-size: 10pt;
+}
+
+form input:focus {
+	background-color:gray;
+	color:white;
+	font-weight: bold;
+}
+
+form input[type="text"] {
+    width:280px;
+}
+
+form input[type="submit"]{
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid #000;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+    font-weight: bold;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+} 
+
+form input[type="submit"]:hover{
+	cursor:pointer;
+}
+
+form button {
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid #000;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:red;	
+}
+
+form button:hover{
+	cursor:pointer;
+}
+
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+table td, table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+  
+table tr:nth-child(even){background-color: #f2f2f2;}
+table tr:nth-child(odd){background-color: #d2d2d2;}
+table tr:hover {background-color: #aaa;}
+
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}

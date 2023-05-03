@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Akaya Kanadaka">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Biblioteca Publica</title>
+</head>
+<body>
+    <form name="formulario">
+        <h1>Datos de Socios</h1>
+        <fieldset>          
+          <legend>Consulta Datos del Socio</legend>          
+          <p>
+            <label for="nif" class="cliente">NIF</label>
+            <input type="text" name="nif" id="nif" placeholder="Escribe el NIF del Socio"/>
+          </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Datos del Socio</legend>
+            <p>
+              <label for="nombre" class="cliente">Nombre </label>
+              <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre"  />
+            </p>
+            <p>
+              <label for="apellidos" class="cliente">Apellidos </label>
+              <input type="text" name="apellidos" id="apellidos" placeholder="Escribe tus apellidos"  />
+            </p>
+            <p>
+              <label for="domicilio" class="cliente">Domicilio </label>
+              <input type="text" name="domicilio" id="domicilio" placeholder="Escribe tu domicilio"  />
+            </p>
+            <p>
+              <label for="poblacion" class="cliente">Población </label>
+              <input type="text" name="poblacion" id="poblacion" placeholder="Escribe tu poblacion" />
+            </p>
+            <p>
+              <label for="provincia" class="cliente">Provincia </label>
+              <input type="text" name="provincia" id="provincia" placeholder="Escribe tu provincia" />
+            </p>
+            <p>
+              <label for="email" class="cliente">Email </label>
+              <input type="text" name="email" id="email" placeholder="Escribe tu email" />
+            </p>
+        </fieldset>
+        <input type="submit" id="enviar" name="enviar" value="Enviar Datos"/>
+    </form>  
+        
+        <template id="template-tabla">
+          <table>
+            <thead>
+              <tr><td>Título</td><td>Autor</td><td>Editorial</td><td>Género</td><td>Páginas</td><td>Fecha Ed.</td></tr>
+            </thead>
+            <tbody>
+              <!-- template-row -->
+            </tbody>
+          </table>
+        </template>
+
+        <template id="template-row">
+          <tr><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        </template>
+
+        <script src="js/myscript.js"></script>
+</body>
+</html>
